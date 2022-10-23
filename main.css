@@ -1,0 +1,75 @@
+*{
+
+}
+
+body{
+	min-height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	margin-left: 0%;
+}
+nav{
+	background-color: black;
+	color:maroon;
+	height: 20vh;
+	display: grid;
+	grid-template-columns:40% 60%;
+
+	
+}
+
+.nav-links{
+	font-size: xx-large;
+	line-height: 15vh;
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+
+}
+.logo{
+	height:10vh;
+	color: maroon;
+}
+
+/*************************************************************************************************************/
+h1{
+	text-align: center;
+}
+#background{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: large;
+}
+/**************************************************************************************************/
+.profiles{
+	display: grid;
+	grid-template-columns: auto auto;
+	
+}
+.single-profile{
+	border: solid;
+	width: 30vw;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+}
+button{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: green;
+	color: white;
+	margin-bottom: 5%;
+	width: 20vw;
+	height: 10vh;
+	font-size: larger;
+}
+/********************************************************************************************************************/
+footer{
+	background-color: black;
+	height: 40vh;
+}
