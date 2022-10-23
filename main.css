@@ -10,25 +10,35 @@ body{
 }
 nav{
 	background-color: black;
-	color:maroon;
+	color:white;
 	height: 20vh;
 	display: grid;
 	grid-template-columns:40% 60%;
 
 	
 }
+a{
+	text-decoration-line: none;
+}
+
+a:visited{
+	color: white;
+}
 
 .nav-links{
-	font-size: xx-large;
+	font-size:xx-large;
 	line-height: 15vh;
-	display: flex;
-	flex-direction: row;
-	align-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
 
 }
 .logo{
 	height:10vh;
 	color: maroon;
+	margin-left: 10%;
+	margin-top: 5%;
 }
 
 /*************************************************************************************************************/
@@ -67,6 +77,23 @@ button{
 	width: 20vw;
 	height: 10vh;
 	font-size: larger;
+}
+/************************************************************************/
+/*Calender*/
+#events{
+	display: grid; 
+	grid-template-columns: auto auto auto;
+}
+.singleEvent{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: grey;
+	width:20vw;
+	text-align: center;
+	margin-bottom: 5%;
+	color: maroon;
+	
 }
 /********************************************************************************************************************/
 footer{
